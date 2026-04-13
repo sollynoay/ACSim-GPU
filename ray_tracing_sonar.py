@@ -861,7 +861,7 @@ def process_buffers_to_sum_image(
 
 def main():
     wp.init()
-    scene_root = Path("rl_export")
+    scene_root = Path("marker_export")
     scene = load_scene_data(scene_root)
     buf_dist, buf_hitloc, buf_light, buf_c, buf_br = render_recursive(scene, depth=1)
 
